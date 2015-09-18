@@ -1,7 +1,61 @@
 body {
     background-color: #000;
-    padding: 0;
-    margin: 0 auto;
+}
+.logo {
+    /*padding: 0;
+    margin: auto;
+    border: 1px solid #fff;*/
     width: 40%;
     height: auto;
+    position: absolute;
+    top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
+
+.triangle {
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+	animation: outline 3s ease-in-out forwards;
+	;
+}
+
+.rectangle {
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+	animation: outline 3.5s ease-in-out forwards;
+	;
+}
+
+.lines {
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+	animation: outline 2s ease-in-out 3s forwards;
+	;
+}
+
+.name {
+	animation: appear 6s;
+}
+
+@keyframes outline {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes appear {
+  0% { 
+  	opacity: 0;
+  }
+  40% { 
+  	opacity: 0;
+  }
+  100% { 
+  	opacity: 1;
+  }
+}
+
+
+
+
