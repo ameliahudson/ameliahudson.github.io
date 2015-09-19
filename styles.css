@@ -16,6 +16,9 @@ body {
 .triangle {
 	stroke-dasharray: 500;
 	stroke-dashoffset: 500;
+  -webkit-animation: outline 3s ease-in-out forwards;
+  -moz-animation: outline 3s ease-in-out forwards;
+  -o-animation: outline 3s ease-in-out forwards;
 	animation: outline 3s ease-in-out forwards;
 	;
 }
@@ -23,6 +26,9 @@ body {
 .rectangle {
 	stroke-dasharray: 500;
 	stroke-dashoffset: 500;
+  -webkit-animation: outline 3.5s ease-in-out forwards;
+  -moz-animation: outline 3.5s ease-in-out forwards;
+  -o-animation: outline 3.5s ease-in-out forwards;
 	animation: outline 3.5s ease-in-out forwards;
 	;
 }
@@ -30,11 +36,17 @@ body {
 .lines {
 	stroke-dasharray: 500;
 	stroke-dashoffset: 500;
+  -webkit-animation: outline 2s ease-in-out 3s forwards;
+  -moz-animation: outline 2s ease-in-out 3s forwards;
+  -o-animation: outline 2s ease-in-out 3s forwards;
 	animation: outline 2s ease-in-out 3s forwards;
 	;
 }
 
 .name {
+  -webkit-animation: appear 6s;
+  -moz-animation: appear 6s;
+  -o-animation: appear 6s;
 	animation: appear 6s;
 }
 
